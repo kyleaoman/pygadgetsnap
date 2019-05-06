@@ -1,0 +1,11 @@
+Only for python2 (this is old unsupported code).
+
+Installation (requires swig):
+make py_wrap
+pip2 install --prefix .
+
+Note: usage of -e flag (install-by-link) for pip2 doesn't seem to work properly.
+
+Usage is then:
+import gadget_binary_snap
+import gadget_hdf5_snap

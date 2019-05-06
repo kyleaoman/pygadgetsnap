@@ -1,0 +1,9 @@
+*.o
+build/*
+\#*
+*.so
+*.pyc
+*~
+gadget_binary_snap/snap_wrap.cpp
+gadget_binary_snap/gadget_binary_snap.py
+*.egg-info
